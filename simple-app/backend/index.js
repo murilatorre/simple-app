@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 3000;
 app.use(express.static(path.join(__dirname, '../frontend')));
 
 app.get('/api/mensagem', (req, res) => {
-  res.json({ mensagem: 'Olá, Muriel! 😄 Sua aplicação está funcionando!' });
+  res.json({ mensagem: 'Olá! Sua aplicação está funcionando :)' });
 });
 
 app.listen(PORT, () => {
